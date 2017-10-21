@@ -1,0 +1,127 @@
+body {
+   font-family: 'Nunito', sans-serif;
+   color: #3b3b3b;
+   //color: #333333;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+/* NAV */
+
+#navBar {
+  height: 120px;
+  border-bottom: #C4C4C4 0.5px solid;
+}
+
+a.nav-link:after {
+    margin: 0px 0px 0px 30px;
+    display: inline-block;
+    content: '/';
+    color: #b3b3b3;
+}
+
+#services {
+  padding-top: 40px;
+  border-top: #C4C4C4 0.5px solid;
+}
+
+a.nav-link {
+  margin-top: 30px;
+  font-size: 1.6em;
+}
+
+#jumboColor {
+  background-color: white;
+
+}
+
+
+#profilePic {
+  margin-top: 80px;
+  width: 370px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#logo {
+  border-radius: 50%;
+  width: 130px;
+  height: auto;
+}
+
+#logo {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+#logo:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.col-md-12#services {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.alignCenter {
+  text-align: center;
+  padding: 5px;
+}
+
+.alignLeft {
+  text-align: left;
+  padding: 5px;
+  color: #b3b3b3;
+}
+
+.alignRight {
+  text-align: right;
+  padding: 5px;
+  color: #b3b3b3;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.backLight {
+  //background-color: #e6e6e6;
+}
+
+.padding {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.paddingBottom {
+  padding-bottom: 60px;
+  border-bottom: #C4C4C4 0.5px solid;
+}
+
+#picPad {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+}
+
+
+.fa-facebook-square:hover{
+  color: #3b5998;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.fa-twitter-square:hover{
+  color: #1da1f2;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.fa-linkedin-square:hover{
+  color: #0077b5;
+  cursor: pointer;
+  transition: 1s;
+}
